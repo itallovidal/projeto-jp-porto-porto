@@ -7,7 +7,6 @@ export default function AuthLayout({
   return (
     <main className="grow">
 
-      <PageIllustration />
 
       {children}
 
