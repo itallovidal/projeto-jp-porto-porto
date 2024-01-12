@@ -15,7 +15,7 @@ export default function Home() {
     <>
         <BannerPorto/>
         <Contact />
-        <Selling/>
+        {/*<Selling/>*/}
         <Zigzag />
         <LogoClouds/>
     </>
