@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
+import Dropdown from "@/components/dropdown";
 
 export default function Header() {
   return (
@@ -23,15 +24,23 @@ export default function Header() {
               <li>
                 <Link
                   href="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#020A17] hover:text-[#ffffff] px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Sign in
+                  Venda
                 </Link>
               </li>
+
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Sign up
+                <Link
+                    href="/signin"
+                    className="font-medium text-[#020A17] hover:text-[#ffffff] px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Sobre
                 </Link>
+              </li>
+
+              <li>
+                <Dropdown/>
               </li>
             </ul>
           </nav>

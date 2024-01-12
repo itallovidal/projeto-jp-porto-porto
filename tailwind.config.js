@@ -69,6 +69,12 @@ module.exports = {
       scale: {
         '98': '.98'
       },
+      maxHeight: {
+        102: '28rem'
+      },
+      backgroundImage: {
+        'homeBackdrop': "url('/images/backgroundHome.png')",
+      }
     },
   },
   plugins: [
