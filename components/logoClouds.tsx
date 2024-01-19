@@ -10,28 +10,28 @@ export default function LogoClouds() {
 
                     <img
                         className="col-start-2 col-end-3 max-h-18 w-full object-contain"
-                        src={'images/logoFiat.png'}
+                        src={'images/logos/logoFiat.png'}
                         alt="Transistor"
                         width={200}
                         height={100}
                     />
                     <img
                         className="col-span-2 max-h-18 w-full object-contain lg:col-span-1"
-                        src={'images/logoChevrolet.png'}
+                        src={'images/logos/logoChevrolet.png'}
                         alt="Reform"
                         width={200}
                         height={100}
                     />
                     <img
                         className="col-span-2 max-h-18 w-full object-contain lg:col-span-1"
-                        src={'images/logoH.png'}
+                        src={'images/logos/logoH.png'}
                         alt="Tuple"
                         width={200}
                         height={100}
                     />
                     <img
                         className="col-span-2 max-h-18 w-full object-contain sm:col-start-2 lg:col-span-1"
-                        src={'images/logoNissan.png'}
+                        src={'images/logos/logoNissan.png'}
                         alt="SavvyCal"
                         width={200}
                         height={100}
@@ -41,7 +41,7 @@ export default function LogoClouds() {
                 <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
                     <img
                         className="col-span-2 col-start-2 max-h-18 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        src={'images/logoRenault.png'}
+                        src={'images/logos/logoRenault.png'}
                         alt="Statamic"
                         width={200}
                         height={100}
@@ -49,7 +49,7 @@ export default function LogoClouds() {
 
                     <img
                         className="col-span-2 col-start-2 max-h-18 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        src={'images/logoVolks.png'}
+                        src={'images/logos/logoVolks.png'}
                         alt="Statamic"
                         width={200}
                         height={100}
@@ -57,7 +57,7 @@ export default function LogoClouds() {
 
                     <img
                         className="col-span-2 col-start-2 max-h-18 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        src={'images/logoVolks.png'}
+                        src={'images/logos/logoVolks.png'}
                         alt="Statamic"
                         width={200}
                         height={100}
@@ -65,7 +65,7 @@ export default function LogoClouds() {
 
                     <img
                         className="col-span-2 col-start-2 max-h-18 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        src={'images/logoVolks.png'}
+                        src={'images/logos/logoVolks.png'}
                         alt="Statamic"
                         width={200}
                         height={100}
@@ -73,7 +73,7 @@ export default function LogoClouds() {
 
                     <img
                         className="col-span-2 col-start-2 max-h-18 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        src={'images/logoVolks.png'}
+                        src={'images/logos/logoVolks.png'}
                         alt="Statamic"
                         width={200}
                         height={100}

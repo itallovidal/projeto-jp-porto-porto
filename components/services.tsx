@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/images/carBanner.png'
-import FeatImage02 from '@/public/images/escavadeiraBanner.png'
+import FeatImage01 from '@/public/images/banner/carBanner.png'
+import FeatImage02 from '@/public/images/banner/escavadeiraBanner.png'
 
 export default function Services() {
   return (

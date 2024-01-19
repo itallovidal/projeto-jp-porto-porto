@@ -48,7 +48,7 @@ export default function RootLayout({
             <Services />
             <Accordion/>
             <Selling data={{
-              h1: `Carros à Vendas`,
+              h1: `Carros à Venda`,
               p: 'Trabalhamos com as mais variadas marcas incluindo Ford, Fiat, Nissan, Chevrolet, Volkswagen, Hyundai e muitas outras.',
               collectionType:"cars"
             }}/>
