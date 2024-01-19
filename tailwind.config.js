@@ -78,8 +78,8 @@ module.exports = {
         102: '28rem'
       },
       backgroundImage: {
-        'homeBackdrop': "url('/images/backgroundHome.png')",
-        'aboutBackdrop': "url('/images/aboutbackground.png')",
+        'homeBackdrop': "url('/images/background-home.png')",
+        'aboutBackdrop': "url('/images/background-about.png')",
       }
     },
   },
