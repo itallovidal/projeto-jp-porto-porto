@@ -42,10 +42,6 @@ export default function Footer() {
                 </ul>
               </div>
 
-              {/* 3rd block */}
-              <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Formas de Pagamento</h6>
-              </div>
 
               {/* 4th block */}
               <div className="text-sm">

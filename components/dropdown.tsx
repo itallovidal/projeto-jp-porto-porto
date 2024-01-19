@@ -38,7 +38,7 @@ export default function Dropdown() {
                                         'block px-4 py-2 text-sm'
                                     )}
                                 >
-                                    Empresas Públicas
+                                    Locação Pública
                                 </a>
                             )}
                         </Menu.Item>
@@ -51,7 +51,7 @@ export default function Dropdown() {
                                         'block px-4 py-2 text-sm'
                                     )}
                                 >
-                                    Empresas Privadas
+                                    Locação Privada
                                 </a>
                             )}
                         </Menu.Item>
@@ -64,7 +64,7 @@ export default function Dropdown() {
                                         'block px-4 py-2 text-sm'
                                     )}
                                 >
-                                    Locação de Maquinário
+                                    Locação de Equipamentos Pesados
                                 </a>
                             )}
                         </Menu.Item>

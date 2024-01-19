@@ -6,9 +6,11 @@ import Header from '@/components/ui/header'
 import BannerPorto from "@/components/bannerPorto";
 import Contact from "@/components/contact";
 import Selling from "@/components/selling";
-import Zigzag from "@/components/zigzag";
+import Services from "@/components/services";
 import LogoClouds from "@/components/logoClouds";
 import Footer from "@/components/ui/footer";
+import Accordion from "@/components/accordion";
+import About from "@/components/about";
 
 
 
@@ -43,7 +45,8 @@ export default function RootLayout({
           <main className="grow">
 
             <BannerPorto/>
-            <Zigzag />
+            <Services />
+            <Accordion/>
             <Selling data={{
               h1: `Carros à Vendas`,
               p: 'Trabalhamos com as mais variadas marcas incluindo Ford, Fiat, Nissan, Chevrolet, Volkswagen, Hyundai e muitas outras.',
@@ -51,16 +54,20 @@ export default function RootLayout({
             }}/>
             <LogoClouds/>
             <Selling data={{
-              h1: `Locação de Maquinário`,
+              h1: `Equipamentos Pesados`,
               p: 'O melhor maquinário para sua empresa.',
               collectionType:"machines"
             }}/>
             <Contact />
+            <About/>
           </main>
 
           <Footer />
           {/*{children}*/}
         </div>
+
+        <script src="node_modules/@material-tailwind/html/scripts/collapse.js"></script>
+        <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
       </body>
     </html>
   )
