@@ -47,16 +47,17 @@ export default function RootLayout({
             <BannerPorto/>
             <Services />
             <Accordion/>
+            
             <Selling data={{
               h1: `Carros à Venda`,
               p: 'Trabalhamos com as mais variadas marcas incluindo Ford, Fiat, Nissan, Chevrolet, Volkswagen, Hyundai e muitas outras.',
-              collectionType:"cars"
-            }}/>
+              collectionType:"cars",
+            }}/>         
             <LogoClouds/>
             <Selling data={{
               h1: `Equipamentos Pesados`,
               p: 'O melhor maquinário para sua empresa.',
-              collectionType:"machines"
+              collectionType:"machines",
             }}/>
             <Contact />
             <About/>

@@ -10,12 +10,13 @@ interface ICardInfo{
 interface ICarCardProps {
     carInfo: ICardInfo
 }
+
 function CarCard({carInfo}: ICarCardProps) {
     return (
         <article key={carInfo.id} className="border-2 border-[#020A17] flex bg-[#020A17] max-w-m flex-col items-start justify-between">
 
             <div className={'bg-white w-full'}>
-                <img src={carInfo.imageURL} width={'250'} height={'250'} alt=""/>
+                <img src={carInfo.imageURL} height={'100%'} alt=""/>
             </div>
             <div className="group relative mb-5 px-5 mt-2">
                 <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-200 group-hover:text-gray-600">
